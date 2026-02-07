@@ -5,7 +5,7 @@ const app = express();
 
 const CLIENT_ID = "1469761209170526323";
 const CLIENT_SECRET = "7EA3IqlBWDy33s7AtFdNvV0YJuXFQELt";
-const REDIRECT_URI = "https://dclogin.onrender.com";
+const REDIRECT_URI = "https://dclogin.onrender.com/callback";
 
 let lastUser = null;
 
